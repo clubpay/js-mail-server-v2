@@ -31,12 +31,18 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@aws-sdk/client-ses": "^3.758.0",
     "@nestjs/common": "^11.0.1",
+    "@nestjs/config": "^4.0.1",
     "@nestjs/core": "^11.0.1",
     "@nestjs/platform-express": "^11.0.1",
+    "@sendgrid/mail": "^8.1.4",
+    "@types/nodemailer": "^6.4.17",
     "commitlint": "^19.7.1",
     "git-cz": "^4.9.0",
+    "html-to-text": "^9.0.5",
     "lint-staged": "^15.4.3",
+    "nodemailer": "^6.10.0",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.1"
   },
